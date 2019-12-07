@@ -13,7 +13,6 @@ function increaseRankBy(n){
   for (let i = 0; i<scores.length; i++){
     var g = parseInt(scores[i].innerHTML, 10);
     scores[i].innerHTML = g+n;
-    
   }
 }
 
