@@ -19,7 +19,7 @@ function increaseRankBy(n){
 
 function deepestChild(){
   var p = document.getElementById('grand.node').querySelector('div');
-  while(p.startsWith('<') || p===null){
+  while(p.innerHTML.startsWith('<') || p===null){
     p = p.querySelector('div');
   }
   return p;
